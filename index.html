@@ -1307,8 +1307,8 @@ body[data-current-page="puzzle"] .optional-quiz{margin-top:0}
   <div class="scroll-progress" id="scrollProgress"></div>
   
   <nav aria-label="Main navigation">
-    <a class="seadex-brand" href="/seadex/home" aria-label="SeaDex home" data-route="home"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none"><path d="M16 9c-4-3-8-3-12-1v17c4-2 8-2 12 1 4-3 8-3 12-1V8c-4-2-8-2-12 1Z" stroke="#b9dcd2" stroke-width="2" stroke-linejoin="round"></path><path d="M16 9v17M7 15c2-1 3 1 5 0m8 0c2-1 3 1 5 0" stroke="#b9dcd2" stroke-width="2" stroke-linecap="round"></path></svg><span>Sea<span class="seadex-brand-accent">Dex</span></span></a>
-    <div class="nav-links"><a href="/seadex/home" data-route="home">Home</a><a href="/seadex/dictionary" data-route="dictionary">Dictionary</a><a href="/seadex/puzzle" data-route="puzzle">Puzzle</a><button class="nav-cta" id="startLearning">Find an animal</button></div>
+    <a class="seadex-brand" href="#home" aria-label="SeaDex home" data-route="home"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none"><path d="M16 9c-4-3-8-3-12-1v17c4-2 8-2 12 1 4-3 8-3 12-1V8c-4-2-8-2-12 1Z" stroke="#b9dcd2" stroke-width="2" stroke-linejoin="round"></path><path d="M16 9v17M7 15c2-1 3 1 5 0m8 0c2-1 3 1 5 0" stroke="#b9dcd2" stroke-width="2" stroke-linecap="round"></path></svg><span>Sea<span class="seadex-brand-accent">Dex</span></span></a>
+    <div class="nav-links"><a href="#home" data-route="home">Home</a><a href="#dictionary" data-route="dictionary">Dictionary</a><a href="#puzzle" data-route="puzzle">Puzzle</a><button class="nav-cta" id="startLearning">Find an animal</button></div>
   </nav>
 
   <main>
@@ -1374,7 +1374,7 @@ body[data-current-page="puzzle"] .optional-quiz{margin-top:0}
 
     </details>
 
-<section id="puzzle" data-page="puzzle" class="puzzle-page"><div class="puzzle-heading"><div><div class="eyebrow">A small challenge. A useful lesson.</div><h1>Match what helps.</h1><p>Pick an ocean problem, then pick an action that helps. Find all six pairs. Take your time.</p></div><div class="puzzle-badge" aria-hidden="true"><svg viewBox="0 0 120 120" fill="none"><circle cx="60" cy="60" r="48" stroke="currentColor" stroke-width="2"></circle><path d="M24 53c12-14 24 14 36 0s24 14 36 0M24 69c12-14 24 14 36 0s24 14 36 0" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path></svg></div></div><div class="puzzle-board"><div class="puzzle-toolbar"><span id="puzzleCount">0 of 6 pairs found</span><button type="button" id="puzzleRestart">Start again</button></div><progress id="puzzleProgress" value="0" max="6" aria-label="Pairs found"></progress><p id="puzzleFeedback" role="status" aria-live="polite" aria-atomic="true">Start with any problem on the left.</p><div class="puzzle-columns"><div><h2>The problem</h2><div id="puzzleThreats" class="puzzle-options"></div></div><div><h2>What helps</h2><div id="puzzleActions" class="puzzle-options"></div></div></div><div id="puzzleWin" class="puzzle-win" hidden=""><h2>Six matches. Six ways to help.</h2><p>Small steps help. Bigger changes, such as safer fishing and protected homes, need people and communities working together.</p><a href="/seadex/dictionary" data-route="dictionary">Find an animal to help</a><a href="#quickChecklist">Try a step from the checklist</a></div></div><div class="puzzle-learn"><h2>Want to know more?</h2><p>The dictionary explains these problems and links to sources. Each action helps reduce a threat; one action alone cannot save every animal.</p><a href="/seadex/dictionary" data-route="dictionary">Explore the dictionary</a></div></section><details class="optional-quiz" data-page="puzzle"><summary>Try a quick quiz</summary><section class="quiz" id="quiz">
+<section id="puzzle" data-page="puzzle" class="puzzle-page"><div class="puzzle-heading"><div><div class="eyebrow">A small challenge. A useful lesson.</div><h1>Match what helps.</h1><p>Pick an ocean problem, then pick an action that helps. Find all six pairs. Take your time.</p></div><div class="puzzle-badge" aria-hidden="true"><svg viewBox="0 0 120 120" fill="none"><circle cx="60" cy="60" r="48" stroke="currentColor" stroke-width="2"></circle><path d="M24 53c12-14 24 14 36 0s24 14 36 0M24 69c12-14 24 14 36 0s24 14 36 0" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path></svg></div></div><div class="puzzle-board"><div class="puzzle-toolbar"><span id="puzzleCount">0 of 6 pairs found</span><button type="button" id="puzzleRestart">Start again</button></div><progress id="puzzleProgress" value="0" max="6" aria-label="Pairs found"></progress><p id="puzzleFeedback" role="status" aria-live="polite" aria-atomic="true">Start with any problem on the left.</p><div class="puzzle-columns"><div><h2>The problem</h2><div id="puzzleThreats" class="puzzle-options"></div></div><div><h2>What helps</h2><div id="puzzleActions" class="puzzle-options"></div></div></div><div id="puzzleWin" class="puzzle-win" hidden=""><h2>Six matches. Six ways to help.</h2><p>Small steps help. Bigger changes, such as safer fishing and protected homes, need people and communities working together.</p><a href="#dictionary" data-route="dictionary">Find an animal to help</a><a href="#quickChecklist">Try a step from the checklist</a></div></div><div class="puzzle-learn"><h2>Want to know more?</h2><p>The dictionary explains these problems and links to sources. Each action helps reduce a threat; one action alone cannot save every animal.</p><a href="#dictionary" data-route="dictionary">Explore the dictionary</a></div></section><details class="optional-quiz" data-page="puzzle"><summary>Try a quick quiz</summary><section class="quiz" id="quiz">
       <div class="quiz-copy">
         <div class="eyebrow">Knowledge check</div>
         <h2>What did you learn?</h2>
@@ -1929,15 +1929,12 @@ body[data-current-page="puzzle"] .optional-quiz{margin-top:0}
     // Routes share the same dictionary and profile player, with a file-friendly fallback.
     const pageNames = ['home', 'dictionary', 'puzzle'];
     function routeFromAddress() {
-      const hashRoute = location.hash.match(/^#\/(home|dictionary|puzzle)(?:\/)?$/);
+      const hashRoute = location.hash.match(/^#\/?(home|dictionary|puzzle)(?:\/)?$/);
       if (hashRoute) return hashRoute[1];
-      const pathRoute = location.pathname.match(/\/(home|dictionary|puzzle)(?:\/index\.html|\/)?$/);
-      if (pathRoute) return pathRoute[1];
       const anchor = document.getElementById(location.hash.slice(1));
       return anchor?.closest('[data-page]')?.dataset.page || 'home';
     }
-    const siteBase = '/seadex';
-    function routeURL(page) { return location.protocol === 'file:' ? '#/' + page : siteBase + '/' + page; }
+    function routeURL(page) { return '#' + page; }
     function goToPage(page, scroll = true, writeHistory = true) {
       if (!pageNames.includes(page)) page = 'home';
       if (modal.classList.contains('open')) closeProfile();
@@ -1949,8 +1946,8 @@ body[data-current-page="puzzle"] .optional-quiz{margin-top:0}
         else link.removeAttribute('aria-current');
       });
       document.title = 'SeaDex — ' + ({home:'Find an animal. Find a way to help.', dictionary:'Marine Animal Dictionary', puzzle:'Match What Helps'}[page]);
-      if (writeHistory && (location.protocol === 'file:' ? location.hash !== routeURL(page) : location.pathname !== routeURL(page))) {
-        if (location.protocol === 'file:') location.hash = '/' + page;
+      if (writeHistory && location.hash !== routeURL(page)) {
+        if (location.protocol === 'file:') location.hash = page;
         else history.pushState({page}, '', routeURL(page));
       }
       if (page !== 'home') rippleCard?.classList.remove('ripples-active');
